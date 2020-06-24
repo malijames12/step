@@ -15,14 +15,22 @@
 /**
  * Adds a random greeting to the page.
  */
-function addRandomGreeting() {
-  const greetings =
-      ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
+function addRandomPhrase() {
+  const phrases =
+      ["I say my favorite color is Blue, but in practice it's Black.",
+      'I know 3 other STEP interns personally.',
+       'Hablo un poco español.',
+       '100% of the time I can correctly guess the answer to a yes or no question 50% of the time.',
+       'If it sounds obscure, I read it on Reddit.',
+       'Vague?',
+       '... partner?',
+       'The cake is a lie.',
+       "Whatever you do, don't visit this page. https://www.youtube.com/watch?v=dQw4w9WgXcQ"];
 
   // Pick a random greeting.
-  const greeting = greetings[Math.floor(Math.random() * greetings.length)];
+  const phrase = phrases[Math.floor(Math.random() * phrases.length)];
 
   // Add it to the page.
-  const greetingContainer = document.getElementById('greeting-container');
-  greetingContainer.innerText = greeting;
+  const phraseContainer = document.getElementById('phrase-container');
+  phraseContainer.innerText = phrase;
 }
