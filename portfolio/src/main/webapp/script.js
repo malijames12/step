@@ -20,7 +20,7 @@ function addRandomPhrase() {
       ["I say my favorite color is Blue, but in practice it's Black.",
       'I know 3 other STEP interns personally.',
        'Hablo un poco español.',
-       '100% of the time I can correctly guess the answer to a yes or no question 50% of the time.',
+       '100% of the time I can correctly guess the answer to a binary question 50% of the time.',
        'If it sounds obscure, I read it on Reddit.',
        'Vague?',
        '... partner?',
